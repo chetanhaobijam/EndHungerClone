@@ -1,0 +1,76 @@
+:root {
+  --darkblue: #254151;
+  --yellow: #f4ce50;
+  --white: #eaeae8;
+  --red: #c36055;
+  --aqua: #44b29d;
+}
+
+body, html {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--darkblue);
+  color: var(--white);
+}
+
+nav img {
+  width: 40px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.brandtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navi-seperator {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.home {
+  color: var(--red);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.donate {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  background-color: var(--yellow);
+  color: var(--darkblue);
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
