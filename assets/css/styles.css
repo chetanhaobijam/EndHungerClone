@@ -13,6 +13,7 @@ body, html {
   padding: 0;
 }
 
+/* Navigation Bar Styles */
 nav {
   background-color: var(--darkblue);
   color: var(--white);
@@ -74,3 +75,43 @@ nav {
   cursor: pointer;
 }
 
+/* Heading Styles */
+.heading {
+  background: url("https://images.unsplash.com/photo-1571162478581-ad3d0c1057ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.heading-flex {
+  height: 80%;
+  text-align: center;
+}
+
+.heading-title {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.heading-para {
+  color: var(--darkblue);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.heading-icons {
+  background-color: var(--yellow);
+  color: var(--darkblue);
+  width: 60px;
+  height: auto;
+  text-align: center;
+  position: relative;
+  bottom: 70%;
+  left: 95.5%;
+  padding: 20px;
+}
+
+.fab {
+  cursor: pointer;
+}
