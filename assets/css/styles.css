@@ -314,3 +314,71 @@ main div {
 .donatebutton:focus {
   box-shadow: 0 0 0 0.2rem rgba(195, 96, 85, 0.5);
 }
+
+/* Latest News Section */
+.latestnewssection {
+  margin: 150px 0;
+}
+
+.latestnewstitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--darkblue);
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.latestnewsgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  margin: 0 250px;
+  color: var(--darkblue);
+}
+
+.latestnews {
+  padding: 10px 20px;
+}
+
+.latestnewssubtitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.latestnewspost {
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+}
+
+.thirdpost {
+  margin-bottom: 78px;
+}
+
+.latestnewsinteraction {
+  display: flex;
+}
+
+.eye {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.eye+div {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.hearticon {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: var(--red);
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
