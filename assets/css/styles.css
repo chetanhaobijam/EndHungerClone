@@ -317,7 +317,7 @@ main div {
 
 /* Latest News Section */
 .latestnewssection {
-  margin: 150px 0;
+  margin: 150px 0 50px;
 }
 
 .latestnewstitle {
@@ -382,3 +382,43 @@ main div {
   font-size: 0.9rem;
 }
 
+/* Contact Section */
+.contact {
+  background-color: #eaeae8;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  padding: 50px 280px;
+}
+
+.contact div div {
+  color: var(--darkblue);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contact div p {
+  font-size: 0.9rem;
+}
+
+.subscribeform {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscribeform input {
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.subscribeform button {
+  background-color: transparent;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.subscribeform button:hover, .subscribeform button:focus {
+  outline: none;
+}
