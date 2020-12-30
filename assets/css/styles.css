@@ -422,3 +422,23 @@ main div {
 .subscribeform button:hover, .subscribeform button:focus {
   outline: none;
 }
+
+/* Registered Number Section */
+.registered {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--darkblue);
+  background-color: var(--aqua);
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+/* Created By Section */
+.createdby {
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--darkblue);
+  padding: 5px 0;
+}
